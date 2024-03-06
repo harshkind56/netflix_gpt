@@ -1,0 +1,58 @@
+# Netflix GPT
+- create react app
+- configure tailwind css
+- Header
+- Login form
+- Sign up form
+- Validation
+- useRef
+- firebase setup
+- deploy app using firebase(firebase login, firebase init and firebase deploy)
+- Authentication, sign up user account
+- Implement Sign In
+- Created Redux store with userSlice
+- Implemented Sign out
+- Updated our profile to add display name and photoURL
+- Fetch movies from TMDB movies api
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: if the user is not logged in Redirect /browse to Login Page and vice-versa
+- Unsubscribed to onauthstatuschanged
+- Register on TMDB website and get the API key
+- Fetch data from the api, now playing movies
+- Put the results into the redux store
+- Main container -> one movie with a trailer, name and overview
+- Secondary container -> list of movies with many movie cards
+- Custom hooks for nowPlayingMovie and movieTrailer
+- Update appStore with movies data
+- Fetch data for trailer video
+- Update store with trailer video data
+- Embedded the youtube video and make it autoplay and mute
+- Built secondary component with movie list and movie card
+- TMDB image CDN URL
+- Custom hooks - usePopularMovies
+- Tailwind css to make the browse page beautiful
+- Made scroll bars invisible using extra CSS extension
+- GPT seach bar with multilingual support
+- Use API key to get results from GPT
+- Secure key using .env file and add .env file to gitignore
+- Form a query for gpt to fetch results according to the search text 
+- Get the movie names and fetch all the corresponding search results fetched using tmdb api
+- Re-used MovieList to show these results
+- Memoization using redux store
+- Made site responsive
+
+
+# Features
+- Login/ sign up
+    - Sign in/sign up form
+    - redirect to browse page
+- Browse ( after authentication)
+    - Header
+    - Main movie
+        - Trailer in bg
+        - Title and description
+        - Movie suggestions
+            - MovieLists * n
+- NetflixGPT
+    - Search bar
+    - Movie suggestions
